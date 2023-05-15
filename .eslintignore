@@ -1,0 +1,6 @@
+node_modules/**
+*.json
+coverage
+**/testdata/**
+player/
+yoto-globe-app/

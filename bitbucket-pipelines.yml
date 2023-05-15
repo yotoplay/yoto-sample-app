@@ -1,0 +1,12 @@
+image: node:18
+
+pipelines:
+  default:
+    - step:
+        name: Build, lint and test
+        script:
+          - npm ci
+          - npm run lint
+        artifacts: 
+           - node_modules/**
+

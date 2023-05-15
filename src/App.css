@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #f85e41 !important;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.App-link {
+  color: #003c1f;
+}

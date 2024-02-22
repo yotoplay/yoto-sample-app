@@ -1,5 +1,5 @@
 import auth0 from 'auth0-js';
-import decode from 'jwt-decode';
+import { jwtDecode as decode } from 'jwt-decode';
 
 const ACCESS_TOKEN = 'access_token';
 const REDIRECT = `${window.location.protocol}//${window.location.hostname}${window.location.port ? `:${window.location.port}` : ''}/callback`;

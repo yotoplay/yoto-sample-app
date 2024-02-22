@@ -3,20 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/react": "^11.11.0",
+    "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
-    "@fingerprintjs/fingerprintjs": "^3.4.0",
-    "@mui/material": "^5.13.0",
-    "auth0-js": "^9.20.1",
-    "axios": "^1.4.0",
-    "jwt-decode": "^3.1.2",
+    "@fingerprintjs/fingerprintjs": "^4.2.2",
+    "@mui/material": "^5.15.10",
+    "auth0-js": "^9.24.1",
+    "axios": "^1.6.7",
+    "jwt-decode": "^4.0.0",
     "mqtt": "^4.3.7",
-    "notistack": "^2.0.8",
+    "notistack": "^3.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.8.0",
+    "react-router-dom": "^6.22.1",
     "react-scripts": "5.0.1",
-    "react18-json-view": "^0.0.8"
+    "react18-json-view": "^0.2.7"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -43,8 +43,8 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0"
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "@testing-library/user-event": "^14.5.2"
   }
 }

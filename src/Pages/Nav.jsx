@@ -35,7 +35,9 @@ export const Nav = () => {
         <AppBar color="secondary" position="fixed" className="App-header">
             <Toolbar className="navbar-default">
                 <div className="navbar-header">
-                    <Link className="navbar-brand" to="/"><img src="https://www.datocms-assets.com/48136/1633096024-face-3x.png" width="50" height="50"></img></Link>
+                    <Link className="navbar-brand" to="/">
+                        <img src="https://www.datocms-assets.com/48136/1633096024-face-3x.png" width="50" height="50" />
+                    </Link>
                 </div>
                 <ul className="nav navbar-nav navbar-right" style={{ marginLeft: 'auto', marginRight:'10px' }}>
                     {

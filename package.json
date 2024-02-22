@@ -19,6 +19,7 @@
     "react18-json-view": "^0.2.7"
   },
   "scripts": {
+    "lint": "eslint .",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
